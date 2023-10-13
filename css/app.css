@@ -20,24 +20,28 @@
 }
 
 .btn-game {
-   font-size: 20px;
-   margin-left: 10px;
+    font-size: 20px;
+    margin-left: 10px;
 }
+
 .main__wrapper {
     padding: 40px 10px;
+}
+
+.grid {
     display: flex;
     flex-wrap: wrap;
 }
 
 .cell {
-    width: calc(100% /10);
+    width: calc(100% / 10);
     aspect-ratio: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black ;
+    border: 1px solid black;
 }
 
 .bg-azure {
-    color: aquamarine;
+    background-color: aquamarine;
 }
