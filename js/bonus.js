@@ -20,9 +20,7 @@ gameBtnElement.addEventListener("click", function () {
 	gridElement.innerHTML = "";
 	//     - genero 100 caselle,  con un numero progressivo da 1 a 100
 
-    const selectDOMElement = document.getElementById('difficolta-game')
-    console.log(selectDOMElement)
-
+    
     const difficoltà = selectDOMElement.value;
     console.log(difficoltà)
 
