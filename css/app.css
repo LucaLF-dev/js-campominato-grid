@@ -33,13 +33,25 @@
     flex-wrap: wrap;
 }
 
-.cell {
-    width: calc(100% / 10);
+.cell{
     aspect-ratio: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
+}
+
+.cell-7 {
+    flex-basis: calc(100% / 7);
+    
+}
+
+.cell-9 {
+    flex-basis: calc(100% / 9);
+}
+
+.cell-10 {
+    flex-basis: calc(100% / 10);
 }
 
 .bg-azure {

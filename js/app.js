@@ -24,7 +24,7 @@ gameBtnElement.addEventListener("click", function () {
 		console.log(n);
 
 		//  - creo una variabile col contenuto che andrà poi stampato nel dom element grid
-		const htmlCell = `<div class="cell"> ${n}</div> `;
+		const htmlCell = `<div class="cell cell-7"> ${n}</div> `;
 		console.log(htmlCell);
 
 		// - stampo nel dom le celle concatenando il gridelement al htmlcell
@@ -45,3 +45,4 @@ gameBtnElement.addEventListener("click", function () {
 		});
 	}
 });
+
